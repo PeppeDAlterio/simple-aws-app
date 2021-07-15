@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("source-map-support/register");
-const cdk = require("@aws-cdk/core");
-const simple_app_stack_1 = require("../lib/simple-app-stack");
-const app = new cdk.App();
-new simple_app_stack_1.SimpleAppStack(app, 'SimpleappStack');
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2ltcGxlYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsic2ltcGxlYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUNBLHVDQUFxQztBQUNyQyxxQ0FBcUM7QUFDckMsOERBQXlEO0FBRXpELE1BQU0sR0FBRyxHQUFHLElBQUksR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBQzFCLElBQUksaUNBQWMsQ0FBQyxHQUFHLEVBQUUsZ0JBQWdCLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIiMhL3Vzci9iaW4vZW52IG5vZGVcbmltcG9ydCAnc291cmNlLW1hcC1zdXBwb3J0L3JlZ2lzdGVyJztcbmltcG9ydCAqIGFzIGNkayBmcm9tICdAYXdzLWNkay9jb3JlJztcbmltcG9ydCB7IFNpbXBsZUFwcFN0YWNrIH0gZnJvbSAnLi4vbGliL3NpbXBsZS1hcHAtc3RhY2snO1xuXG5jb25zdCBhcHAgPSBuZXcgY2RrLkFwcCgpO1xubmV3IFNpbXBsZUFwcFN0YWNrKGFwcCwgJ1NpbXBsZWFwcFN0YWNrJyk7XG4iXX0=
